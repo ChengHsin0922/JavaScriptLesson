@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Apple
+    </h1>
+    <script>
+        // console
+        console.log("皮卡丘");
+        console.error("皮卡丘");
+        console.warn("皮卡丘");
+        //使用console.clear清除訊息
+        console.clear();
+        //使用console.table(["a","b","c"])，印出陣列
+        console.table(["apple","bee","cat"]);
+        // 使用console.time()印出運算時間
+        console.time();
+        for (var i = 0; i < 100000; i++) {
+            let square = i ** 2;
+        }
+        console.timeEnd();
+
+
+
+        console.clear();
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        // 使用console.group將訊息分群
+        console.group(一群);
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        console.groupEnd();
+        //使用console.groupCollapased訊息分群摺疊選單
+        console.groupCollapsed(另外一群);
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        console.log("皮卡丘");
+        console.groupEnd();
+    
+    </script>
+</body>
+</html>
