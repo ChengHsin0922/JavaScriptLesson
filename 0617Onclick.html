@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- js其實也可以直接寫在事件裡面，但是後續維護會比較困難 -->
+    <button onclick="console.log('皮卡丘')">按鈕(A)</button>
+    <!-- 正確使用js的寫法，藉由宣告/執行function的方式執行 -->
+    <button onclick="cat()">按鈕(B)</button>
+    <script>
+        function cat() {
+            console.log('皮卡丘2');
+        }
+    </script>
+</body>
+</html>
