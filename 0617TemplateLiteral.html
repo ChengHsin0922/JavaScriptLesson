@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 樣板字面值 | 模版字符串 | 字串樣板 -->
+    <script>
+        var apple = '今晚我想來點鍋貼-1';
+        console.log(apple);
+        //字串與變數相加
+        // var bee = '今晚，我想來點鍋貼-2';
+        var food = '鍋貼';
+        var goods = '草藥';
+        var bee = '今晚，我想來點' + food + '-2';
+        console.log(bee);
+        //使用` `(backtick)將字串與變數相加
+        var cat = `今晚，我想來點${food}-3`;
+        console.log(cat);
+
+        var dog = `今晚我想來點${goods}-4`;
+        console.log(dog);
+    </script>
+</body>
+</html>
