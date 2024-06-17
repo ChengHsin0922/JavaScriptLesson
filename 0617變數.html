@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //變數宣告，大小寫有差異
+        // var x = 5;
+        // var X = 6;
+        // console.log(x);
+        // console.log(X);
+        // 有些變數宣告是電腦自己會宣告的，例如:document
+        // console.log(document);
+        //變數宣告的方式: var、let、const(常數)
+        var x = 777;
+        let y = 888;
+        const z = 999;
+        console.log(x);
+        console.log(y);
+        console.log(z);
+        // // const變數宣告後是否能再修改? (X)
+        // z = 123;
+        // console.log(z);
+        //透過var宣告的變數可以修改
+        x = 123;
+        console.log(x);
+        //透過let宣告的變數可以修改 
+        y = 123;
+        console.log(y);
+        console.clear();
+        // //let、const作用域只存在大括號裡面
+        // if (5 == 5) {
+        //     var apple = 100;
+        //     let bee = 456;
+        //     const g = 99;
+        //     console.log(apple);
+        //     console.log(bee);
+        //     console.log(g);
+        // }
+        // console.log(apple);
+        // console.log(bee);
+        // console.log(g);
+
+        //var宣告的變數可以重複宣告且有後蓋前的現象
+        var cat = 1;
+        var cat = 5;
+        console.log(cat);
+
+        //let宣告的變數不能重複"宣告"
+        // let dog = 100;
+        // let dog = 200;
+        // console.log(dog);
+        
+    </script>
+</body>
+
+</html>
