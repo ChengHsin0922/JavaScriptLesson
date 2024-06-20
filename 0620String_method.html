@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = 'APPLE';
+        
+        // 1.字串的長度?  ==>5
+        // 方法A
+        // var tmp = str.length;
+        // console.log(tmp);
+        // 方法B
+        // console.log(str.length);
+        
+        // 2.字串.indexOf()回傳了甚麼?  ==>位置
+        // var tmp = str.indexOf('P');
+        // console.log(tmp);  // 1
+        
+        //3.字串.lastIndexOf()回傳了甚麼? ==>最後一次出現的位置
+        // var tmp = str.lastIndexOf('P')
+        // console.log(tmp);  // 2
+
+        //4.字串.split()把字串分割為陣列
+        // var fruit = "apple, bubble, lemon";
+        // var temp = fruit.split(','); //看到,就分割一次
+        // console.log(temp);
+
+        //5.字串往左補零  帳號:0902
+        // var demo = '13756';
+        // var x = demo.length;
+        // console.log(x);
+        // var temp = demo.padStart(8, '0');  //參數1:總字串長度 參數2:要加入的字串
+        // console.log(temp);   //00013756
+
+        //6.擷取字串
+        //0911222333 是 手機
+        //0423456789 是 市話
+        var phone = '09112223330423456789';
+        var temp = phone.substr(0,10);
+        var temp2 = phone.substring(0,10);
+        console.log(temp);
+        console.log(temp2);
+    </script>
+</body>
+</html>
